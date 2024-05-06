@@ -21,7 +21,7 @@ require (
 	github.com/nats-io/nats.go v1.34.1
 	github.com/pact-foundation/pact-go/v2 v2.0.4
 	github.com/pressly/goose/v3 v3.20.0
-	github.com/prometheus/client_golang v1.14.0
+	github.com/prometheus/client_golang v1.19.0
 	github.com/rdumont/assistdog v0.0.0-20201106100018-168b06230d14
 	github.com/rs/zerolog v1.32.0
 	github.com/stackus/dotenv v0.0.0-20221206033122-02295762494b
@@ -104,7 +104,6 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mfridman/interpolate v0.0.2 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
@@ -123,8 +122,8 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
-	github.com/prometheus/client_model v0.3.0 // indirect
-	github.com/prometheus/common v0.37.0 // indirect
+	github.com/prometheus/client_model v0.5.0 // indirect
+	github.com/prometheus/common v0.48.0 // indirect
 	github.com/prometheus/procfs v0.12.0 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/sethvargo/go-retry v0.2.4 // indirect

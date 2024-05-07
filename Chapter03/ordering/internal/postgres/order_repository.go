@@ -8,7 +8,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
 )
 
 type OrderRepository struct {

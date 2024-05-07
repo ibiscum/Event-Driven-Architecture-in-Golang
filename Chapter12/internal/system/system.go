@@ -25,9 +25,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	"eda-in-golang/internal/config"
-	"eda-in-golang/internal/logger"
-	"eda-in-golang/internal/waiter"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/logger"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/waiter"
 )
 
 type System struct {

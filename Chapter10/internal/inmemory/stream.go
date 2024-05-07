@@ -3,7 +3,7 @@ package inmemory
 import (
 	"context"
 
-	"eda-in-golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
 )
 
 type stream struct {

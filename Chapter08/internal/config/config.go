@@ -8,8 +8,8 @@ import (
 
 	"github.com/stackus/dotenv"
 
-	"eda-in-golang/internal/rpc"
-	"eda-in-golang/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/rpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/web"
 )
 
 type (

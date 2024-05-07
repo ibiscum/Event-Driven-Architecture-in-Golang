@@ -7,7 +7,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
 )
 
 type ProductRepository struct {

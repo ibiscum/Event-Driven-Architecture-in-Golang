@@ -11,10 +11,10 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/stackus/errors"
 
-	"eda-in-golang/baskets/basketsclient"
-	"eda-in-golang/baskets/basketsclient/basket"
-	"eda-in-golang/baskets/basketsclient/item"
-	"eda-in-golang/baskets/basketsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/basket"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/item"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/models"
 )
 
 type basketIDKey = struct{}

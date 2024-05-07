@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"eda-in-golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
 )
 
 type (

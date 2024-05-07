@@ -6,9 +6,9 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/payments/paymentsclient"
-	"eda-in-golang/payments/paymentsclient/models"
-	"eda-in-golang/payments/paymentsclient/payment"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient/payment"
 )
 
 type Client interface {

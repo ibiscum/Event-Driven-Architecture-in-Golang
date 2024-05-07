@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"eda-in-golang/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
 )
 
 func RegisterGateway(ctx context.Context, mux *chi.Mux, grpcAddr string) error {

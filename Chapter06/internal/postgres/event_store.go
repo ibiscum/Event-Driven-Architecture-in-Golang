@@ -8,8 +8,8 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/internal/es"
-	"eda-in-golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
 )
 
 type EventStore struct {

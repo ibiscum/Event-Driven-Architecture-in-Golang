@@ -6,9 +6,9 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/customers/customersclient"
-	"eda-in-golang/customers/customersclient/customer"
-	"eda-in-golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/customer"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
 )
 
 type Client interface {

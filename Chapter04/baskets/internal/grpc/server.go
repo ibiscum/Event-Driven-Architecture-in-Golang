@@ -6,9 +6,9 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	"eda-in-golang/baskets/basketspb"
-	"eda-in-golang/baskets/internal/application"
-	"eda-in-golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
 )
 
 type server struct {

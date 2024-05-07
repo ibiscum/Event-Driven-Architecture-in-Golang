@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"eda-in-golang/internal/postgres"
-	"eda-in-golang/payments/internal/application"
-	"eda-in-golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
 )
 
 type PaymentRepository struct {

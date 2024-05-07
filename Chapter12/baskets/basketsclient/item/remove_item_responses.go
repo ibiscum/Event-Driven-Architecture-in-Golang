@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/baskets/basketsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/models"
 )
 
 // RemoveItemReader is a Reader for the RemoveItem structure.

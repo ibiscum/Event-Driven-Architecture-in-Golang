@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
 )
 
 // DisableCustomerReader is a Reader for the DisableCustomer structure.

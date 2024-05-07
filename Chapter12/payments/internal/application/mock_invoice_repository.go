@@ -4,7 +4,7 @@ package application
 
 import (
 	context "context"
-	models "eda-in-golang/payments/internal/models"
+	models "github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
 
 	mock "github.com/stretchr/testify/mock"
 )

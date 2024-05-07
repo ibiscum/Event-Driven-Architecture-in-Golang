@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/depot/depotclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotclient/models"
 )
 
 // NewCreateShoppingListParams creates a new CreateShoppingListParams object,

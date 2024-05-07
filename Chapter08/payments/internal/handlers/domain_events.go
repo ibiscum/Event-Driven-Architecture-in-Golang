@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/payments/internal/models"
-	"eda-in-golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
 )
 
 type domainHandlers[T ddd.Event] struct {

@@ -6,9 +6,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"eda-in-golang/internal/di"
-	"eda-in-golang/ordering/internal/application"
-	"eda-in-golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
 )
 
 type serverTx struct {

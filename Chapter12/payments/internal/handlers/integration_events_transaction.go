@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/di"
-	"eda-in-golang/payments/internal/constants"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/constants"
 )
 
 func RegisterIntegrationEventHandlersTx(container di.Container) error {

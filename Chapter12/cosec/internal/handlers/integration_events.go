@@ -7,13 +7,13 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"eda-in-golang/cosec/internal/models"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/errorsotel"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/sec"
-	"eda-in-golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/errorsotel"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
 )
 
 type integrationHandlers[T ddd.Event] struct {

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/stores/storesclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/models"
 )
 
 // GetParticipatingStoresReader is a Reader for the GetParticipatingStores structure.

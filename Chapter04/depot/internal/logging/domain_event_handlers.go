@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"eda-in-golang/depot/internal/application"
-	"eda-in-golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 )
 
 type DomainEventHandlers struct {

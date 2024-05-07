@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
 )
 
 func TestBasket_AddItem(t *testing.T) {

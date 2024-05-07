@@ -3,8 +3,8 @@ package postgres
 import (
 	"time"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
 )
 
 type aggregateEvent struct {

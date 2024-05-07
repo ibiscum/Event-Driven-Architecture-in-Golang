@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/payments/paymentsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient/models"
 )
 
 // PayInvoiceReader is a Reader for the PayInvoice structure.

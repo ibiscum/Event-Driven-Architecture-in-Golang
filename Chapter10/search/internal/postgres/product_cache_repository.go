@@ -9,9 +9,9 @@ import (
 	"github.com/jackc/pgerrcode"
 	"github.com/stackus/errors"
 
-	"eda-in-golang/internal/postgres"
-	"eda-in-golang/search/internal/application"
-	"eda-in-golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
 )
 
 type ProductCacheRepository struct {

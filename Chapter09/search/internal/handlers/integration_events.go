@@ -3,13 +3,13 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/customers/customerspb"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/ordering/orderingpb"
-	"eda-in-golang/search/internal/application"
-	"eda-in-golang/search/internal/models"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 type integrationHandlers[T ddd.Event] struct {

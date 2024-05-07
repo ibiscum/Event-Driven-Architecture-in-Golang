@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
 )
 
 // NewCreateCustomerParams creates a new CreateCustomerParams object,

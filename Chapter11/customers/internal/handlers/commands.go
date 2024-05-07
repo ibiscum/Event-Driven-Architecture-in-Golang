@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/customers/customerspb"
-	"eda-in-golang/customers/internal/application"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 )
 
 type commandHandlers struct {

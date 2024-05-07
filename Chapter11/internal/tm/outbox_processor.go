@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"eda-in-golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
 )
 
 const messageLimit = 50

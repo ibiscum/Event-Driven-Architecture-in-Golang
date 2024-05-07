@@ -1,7 +1,7 @@
 package jetstream
 
 import (
-	"eda-in-golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
 )
 
 type rawMessage struct {

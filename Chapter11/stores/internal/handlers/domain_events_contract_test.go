@@ -12,14 +12,14 @@ import (
 	"github.com/pact-foundation/pact-go/v2/models"
 	"github.com/pact-foundation/pact-go/v2/provider"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/registry/serdes"
-	"eda-in-golang/stores/internal/application"
-	"eda-in-golang/stores/internal/application/commands"
-	"eda-in-golang/stores/internal/domain"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 var pactBrokerURL string

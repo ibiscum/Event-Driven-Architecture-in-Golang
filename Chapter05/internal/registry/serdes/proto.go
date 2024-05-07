@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"eda-in-golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
 )
 
 type ProtoSerde struct {

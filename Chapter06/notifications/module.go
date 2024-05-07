@@ -3,10 +3,10 @@ package notifications
 import (
 	"context"
 
-	"eda-in-golang/internal/monolith"
-	"eda-in-golang/notifications/internal/application"
-	"eda-in-golang/notifications/internal/grpc"
-	"eda-in-golang/notifications/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/logging"
 )
 
 type Module struct{}

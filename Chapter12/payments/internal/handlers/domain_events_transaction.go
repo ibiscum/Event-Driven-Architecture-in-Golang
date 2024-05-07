@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/di"
-	"eda-in-golang/payments/internal/constants"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/constants"
 )
 
 func RegisterDomainEventHandlersTx(container di.Container) {

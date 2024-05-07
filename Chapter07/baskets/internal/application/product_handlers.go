@@ -3,9 +3,9 @@ package application
 import (
 	"context"
 
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 type ProductHandlers[T ddd.Event] struct {

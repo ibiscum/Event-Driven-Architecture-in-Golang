@@ -9,8 +9,8 @@ import (
 	"github.com/jackc/pgerrcode"
 	"github.com/stackus/errors"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/tm"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/tm"
 )
 
 type InboxStore struct {

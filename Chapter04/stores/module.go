@@ -3,13 +3,13 @@ package stores
 import (
 	"context"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/monolith"
-	"eda-in-golang/stores/internal/application"
-	"eda-in-golang/stores/internal/grpc"
-	"eda-in-golang/stores/internal/logging"
-	"eda-in-golang/stores/internal/postgres"
-	"eda-in-golang/stores/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/rest"
 )
 
 type Module struct {

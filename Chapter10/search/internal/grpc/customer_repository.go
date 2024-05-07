@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"eda-in-golang/customers/customerspb"
-	"eda-in-golang/search/internal/application"
-	"eda-in-golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
 )
 
 type CustomerRepository struct {

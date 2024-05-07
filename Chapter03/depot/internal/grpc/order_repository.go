@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"eda-in-golang/depot/internal/domain"
-	"eda-in-golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
 )
 
 type OrderRepository struct {

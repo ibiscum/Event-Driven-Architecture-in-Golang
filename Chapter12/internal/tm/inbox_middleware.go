@@ -6,7 +6,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
 )
 
 type ErrDuplicateMessage string

@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/customers/customerspb"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 )
 
 func RegisterCustomerHandlers(customerHandlers ddd.EventHandler[ddd.Event], stream am.EventSubscriber) error {

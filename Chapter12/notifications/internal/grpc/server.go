@@ -8,9 +8,9 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/grpc"
 
-	"eda-in-golang/internal/errorsotel"
-	"eda-in-golang/notifications/internal/application"
-	"eda-in-golang/notifications/notificationspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/errorsotel"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/notificationspb"
 )
 
 type server struct {

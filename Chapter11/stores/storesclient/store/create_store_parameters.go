@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/stores/storesclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/models"
 )
 
 // NewCreateStoreParams creates a new CreateStoreParams object,

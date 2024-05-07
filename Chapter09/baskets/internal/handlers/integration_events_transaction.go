@@ -4,11 +4,11 @@ import (
 	"context"
 	"database/sql"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/di"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 func RegisterIntegrationEventHandlersTx(container di.Container) error {

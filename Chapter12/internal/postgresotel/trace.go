@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"eda-in-golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
 )
 
 type tracedDB struct {

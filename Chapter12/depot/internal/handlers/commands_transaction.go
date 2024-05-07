@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"eda-in-golang/depot/internal/constants"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/constants"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
 )
 
 func RegisterCommandHandlersTx(container di.Container) error {

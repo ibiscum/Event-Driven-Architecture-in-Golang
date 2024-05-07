@@ -1,9 +1,9 @@
 package domain
 
 import (
-	"eda-in-golang/internal/es"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
 )
 
 const (

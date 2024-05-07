@@ -4,7 +4,7 @@ package am
 
 import (
 	context "context"
-	ddd "eda-in-golang/internal/ddd"
+	ddd "github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 
 	mock "github.com/stretchr/testify/mock"
 )

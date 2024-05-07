@@ -3,18 +3,18 @@ package ordering
 import (
 	"context"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/es"
-	"eda-in-golang/internal/monolith"
-	pg "eda-in-golang/internal/postgres"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/registry/serdes"
-	"eda-in-golang/ordering/internal/application"
-	"eda-in-golang/ordering/internal/domain"
-	"eda-in-golang/ordering/internal/grpc"
-	"eda-in-golang/ordering/internal/handlers"
-	"eda-in-golang/ordering/internal/logging"
-	"eda-in-golang/ordering/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/rest"
 )
 
 type Module struct{}

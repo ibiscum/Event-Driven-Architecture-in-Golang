@@ -3,19 +3,19 @@ package payments
 import (
 	"context"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/jetstream"
-	"eda-in-golang/internal/monolith"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/ordering/orderingpb"
-	"eda-in-golang/payments/internal/application"
-	"eda-in-golang/payments/internal/grpc"
-	"eda-in-golang/payments/internal/handlers"
-	"eda-in-golang/payments/internal/logging"
-	"eda-in-golang/payments/internal/postgres"
-	"eda-in-golang/payments/internal/rest"
-	"eda-in-golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
 )
 
 type Module struct{}

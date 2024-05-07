@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"eda-in-golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
 )
 
 func ReceivedMessagesCounter(serviceName string) am.MessageHandlerMiddleware {

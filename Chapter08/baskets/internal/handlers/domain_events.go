@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/baskets/basketspb"
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 )
 
 type domainHandlers[T ddd.Event] struct {

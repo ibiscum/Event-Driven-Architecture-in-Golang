@@ -9,8 +9,8 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
 )
 
 type (

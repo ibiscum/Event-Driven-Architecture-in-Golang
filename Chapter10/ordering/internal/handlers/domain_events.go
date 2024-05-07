@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/ordering/internal/domain"
-	"eda-in-golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
 )
 
 type domainHandlers[T ddd.Event] struct {

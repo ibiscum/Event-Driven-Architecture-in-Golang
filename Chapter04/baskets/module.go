@@ -3,14 +3,14 @@ package baskets
 import (
 	"context"
 
-	"eda-in-golang/baskets/internal/application"
-	"eda-in-golang/baskets/internal/grpc"
-	"eda-in-golang/baskets/internal/handlers"
-	"eda-in-golang/baskets/internal/logging"
-	"eda-in-golang/baskets/internal/postgres"
-	"eda-in-golang/baskets/internal/rest"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
 )
 
 type Module struct{}

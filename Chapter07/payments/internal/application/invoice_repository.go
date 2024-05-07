@@ -3,7 +3,7 @@ package application
 import (
 	"context"
 
-	"eda-in-golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
 )
 
 type InvoiceRepository interface {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"eda-in-golang/baskets/internal/application"
-	"eda-in-golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
 )
 
 type Application struct {

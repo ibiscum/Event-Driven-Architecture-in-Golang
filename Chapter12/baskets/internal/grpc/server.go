@@ -9,10 +9,10 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/grpc"
 
-	"eda-in-golang/baskets/basketspb"
-	"eda-in-golang/baskets/internal/application"
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/internal/errorsotel"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/errorsotel"
 )
 
 type server struct {

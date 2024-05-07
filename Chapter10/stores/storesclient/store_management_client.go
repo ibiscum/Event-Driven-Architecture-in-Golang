@@ -10,9 +10,9 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"eda-in-golang/stores/storesclient/participation"
-	"eda-in-golang/stores/storesclient/product"
-	"eda-in-golang/stores/storesclient/store"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/participation"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/product"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/store"
 )
 
 // Default store management HTTP client.

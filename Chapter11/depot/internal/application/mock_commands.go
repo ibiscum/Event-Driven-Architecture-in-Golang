@@ -4,7 +4,7 @@ package application
 
 import (
 	context "context"
-	commands "eda-in-golang/depot/internal/application/commands"
+	commands "github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application/commands"
 
 	mock "github.com/stretchr/testify/mock"
 )

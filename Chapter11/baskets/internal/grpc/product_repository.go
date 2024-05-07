@@ -7,9 +7,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 
-	"eda-in-golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
 )
 
 type ProductRepository struct {

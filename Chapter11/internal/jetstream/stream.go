@@ -8,7 +8,7 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/protobuf/proto"
 
-	"eda-in-golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
 )
 
 const maxRetries = 5

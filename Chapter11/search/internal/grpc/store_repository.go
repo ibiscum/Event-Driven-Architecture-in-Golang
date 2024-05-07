@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"eda-in-golang/search/internal/application"
-	"eda-in-golang/search/internal/models"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 type StoreRepository struct {

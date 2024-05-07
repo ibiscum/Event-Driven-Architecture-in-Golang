@@ -12,11 +12,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"eda-in-golang/baskets/basketspb"
-	"eda-in-golang/baskets/internal/application"
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
 )
 
 type serverSuite struct {

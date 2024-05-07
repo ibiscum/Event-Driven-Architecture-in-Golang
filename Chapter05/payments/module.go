@@ -3,12 +3,12 @@ package payments
 import (
 	"context"
 
-	"eda-in-golang/internal/monolith"
-	"eda-in-golang/payments/internal/application"
-	"eda-in-golang/payments/internal/grpc"
-	"eda-in-golang/payments/internal/logging"
-	"eda-in-golang/payments/internal/postgres"
-	"eda-in-golang/payments/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/rest"
 )
 
 type Module struct{}

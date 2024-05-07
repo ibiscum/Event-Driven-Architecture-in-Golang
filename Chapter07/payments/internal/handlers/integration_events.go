@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
 )
 
 func RegisterIntegrationEventHandlers(eventHandlers ddd.EventHandler[ddd.Event], domainSubscriber ddd.EventSubscriber[ddd.Event]) {

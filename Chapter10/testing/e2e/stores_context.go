@@ -5,9 +5,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/stackus/errors"
 
-	"eda-in-golang/stores/storesclient"
-	"eda-in-golang/stores/storesclient/models"
-	"eda-in-golang/stores/storesclient/store"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/store"
 )
 
 type storesContext struct {

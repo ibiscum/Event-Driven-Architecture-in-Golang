@@ -3,12 +3,12 @@ package depot
 import (
 	"context"
 
-	"eda-in-golang/depot/internal/application"
-	"eda-in-golang/depot/internal/grpc"
-	"eda-in-golang/depot/internal/logging"
-	"eda-in-golang/depot/internal/postgres"
-	"eda-in-golang/depot/internal/rest"
-	"eda-in-golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
 )
 
 type Module struct{}

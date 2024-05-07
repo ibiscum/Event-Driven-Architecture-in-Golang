@@ -16,13 +16,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	grpcstd "google.golang.org/grpc"
 
-	"eda-in-golang/baskets/internal/application"
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/baskets/internal/grpc"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/rpc"
-	"eda-in-golang/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/rpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/web"
 )
 
 var pactBrokerURL string

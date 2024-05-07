@@ -3,9 +3,9 @@ package application
 import (
 	"context"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/ordering/orderingpb"
-	"eda-in-golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
 )
 
 type OrderHandlers[T ddd.Event] struct {

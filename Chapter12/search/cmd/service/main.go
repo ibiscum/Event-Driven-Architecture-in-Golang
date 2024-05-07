@@ -8,11 +8,11 @@ import (
 
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"eda-in-golang/internal/config"
-	"eda-in-golang/internal/system"
-	"eda-in-golang/internal/web"
-	"eda-in-golang/search"
-	"eda-in-golang/search/migrations"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/system"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/migrations"
 )
 
 func main() {

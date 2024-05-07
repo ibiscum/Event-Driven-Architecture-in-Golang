@@ -3,9 +3,9 @@ package application
 import (
 	"context"
 
-	"eda-in-golang/stores/internal/application/commands"
-	"eda-in-golang/stores/internal/application/queries"
-	"eda-in-golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/queries"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
 )
 
 type (

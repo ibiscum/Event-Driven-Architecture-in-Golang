@@ -4,7 +4,7 @@ package application
 
 import (
 	context "context"
-	domain "eda-in-golang/baskets/internal/domain"
+	domain "github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
 
 	mock "github.com/stretchr/testify/mock"
 )

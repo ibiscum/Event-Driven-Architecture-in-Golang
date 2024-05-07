@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
 )
 
 type SagaStore struct {
@@ -36,8 +36,8 @@ func (s SagaStore) Load(ctx context.Context, sagaName, sagaID string) (*sec.Saga
 }
 
 func (s SagaStore) Save(ctx context.Context, sagaName string, sagaCtx *sec.SagaContext[[]byte]) error {
-	const query = `INSERT INTO %s (name, id, data, step, done, compensating) 
-VALUES ($1, $2, $3, $4, $5, $6) 
+	const query = `INSERT INTO %s (name, id, data, step, done, compensating)
+VALUES ($1, $2, $3, $4, $5, $6)
 ON CONFLICT (name, id) DO
 UPDATE SET data = EXCLUDED.data, step = EXCLUDED.step, done = EXCLUDED.done, compensating = EXCLUDED.compensating`
 

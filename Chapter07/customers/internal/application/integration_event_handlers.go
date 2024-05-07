@@ -3,10 +3,10 @@ package application
 import (
 	"context"
 
-	"eda-in-golang/customers/customerspb"
-	"eda-in-golang/customers/internal/domain"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 )
 
 type IntegrationEventHandlers[T ddd.AggregateEvent] struct {

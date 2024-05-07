@@ -6,11 +6,11 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	"eda-in-golang/ordering/internal/application"
-	"eda-in-golang/ordering/internal/application/commands"
-	"eda-in-golang/ordering/internal/application/queries"
-	"eda-in-golang/ordering/internal/domain"
-	"eda-in-golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/queries"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
 )
 
 type server struct {

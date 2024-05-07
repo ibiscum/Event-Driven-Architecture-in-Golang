@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"eda-in-golang/cosec/internal/models"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
 )
 
 func RegisterReplyHandlers(subscriber am.ReplySubscriber, orchestrator sec.Orchestrator[*models.CreateOrderData]) error {

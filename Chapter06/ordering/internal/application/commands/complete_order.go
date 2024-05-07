@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"eda-in-golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
 )
 
 type CompleteOrder struct {

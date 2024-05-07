@@ -5,7 +5,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
 )
 
 type fakeEventMessage struct {

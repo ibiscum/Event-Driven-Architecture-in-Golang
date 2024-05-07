@@ -6,16 +6,16 @@ import (
 	"testing"
 
 	"github.com/pact-foundation/pact-go/v2/matchers"
-	"github.com/pact-foundation/pact-go/v2/message/v4"
+	v4 "github.com/pact-foundation/pact-go/v2/message/v4"
 	"github.com/pact-foundation/pact-go/v2/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"eda-in-golang/depot/internal/domain"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/registry/serdes"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 type String = matchers.String

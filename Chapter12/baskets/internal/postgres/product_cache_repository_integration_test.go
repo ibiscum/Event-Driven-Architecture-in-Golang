@@ -18,9 +18,9 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/internal/logger/log"
-	"eda-in-golang/migrations"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/logger/log"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/migrations"
 )
 
 type productCacheSuite struct {

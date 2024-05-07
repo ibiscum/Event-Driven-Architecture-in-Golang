@@ -7,8 +7,8 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/internal/es"
-	"eda-in-golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
 )
 
 type SnapshotStore struct {
@@ -60,8 +60,8 @@ func (s SnapshotStore) Load(ctx context.Context, aggregate es.EventSourcedAggreg
 }
 
 func (s SnapshotStore) Save(ctx context.Context, aggregate es.EventSourcedAggregate) error {
-	const query = `INSERT INTO %s (stream_id, stream_name, stream_version, snapshot_name, snapshot_data) 
-VALUES ($1, $2, $3, $4, $5) 
+	const query = `INSERT INTO %s (stream_id, stream_name, stream_version, snapshot_name, snapshot_data)
+VALUES ($1, $2, $3, $4, $5)
 ON CONFLICT (stream_id, stream_name) DO
 UPDATE SET stream_version = EXCLUDED.stream_version, snapshot_name = EXCLUDED.snapshot_name, snapshot_data = EXCLUDED.snapshot_data`
 

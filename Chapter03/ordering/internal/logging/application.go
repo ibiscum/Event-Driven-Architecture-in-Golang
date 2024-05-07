@@ -5,10 +5,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"eda-in-golang/ordering/internal/application"
-	"eda-in-golang/ordering/internal/application/commands"
-	"eda-in-golang/ordering/internal/application/queries"
-	"eda-in-golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/queries"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
 )
 
 type Application struct {

@@ -8,13 +8,13 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"eda-in-golang/depot/depotpb"
-	"eda-in-golang/depot/internal/application"
-	"eda-in-golang/depot/internal/application/commands"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/errorsotel"
-	"eda-in-golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/errorsotel"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
 )
 
 type commandHandlers struct {

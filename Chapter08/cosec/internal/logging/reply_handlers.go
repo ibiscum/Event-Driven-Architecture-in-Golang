@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
 )
 
 type sagaReplyHandlers[T any] struct {

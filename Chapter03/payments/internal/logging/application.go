@@ -5,7 +5,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"eda-in-golang/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
 )
 
 type Application struct {

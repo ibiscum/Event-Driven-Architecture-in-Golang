@@ -3,12 +3,12 @@ package ordering
 import (
 	"context"
 
-	"eda-in-golang/internal/monolith"
-	"eda-in-golang/ordering/internal/application"
-	"eda-in-golang/ordering/internal/grpc"
-	"eda-in-golang/ordering/internal/logging"
-	"eda-in-golang/ordering/internal/postgres"
-	"eda-in-golang/ordering/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/rest"
 )
 
 type Module struct{}

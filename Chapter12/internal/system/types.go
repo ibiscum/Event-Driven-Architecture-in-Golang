@@ -9,8 +9,8 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 
-	"eda-in-golang/internal/config"
-	"eda-in-golang/internal/waiter"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/waiter"
 )
 
 type Service interface {

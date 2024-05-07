@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"eda-in-golang/customers/internal/domain"
-	"eda-in-golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
 )
 
 type CustomerRepository struct {

@@ -3,7 +3,7 @@ package application
 import (
 	"context"
 
-	"eda-in-golang/notifications/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/models"
 )
 
 type CustomerRepository interface {

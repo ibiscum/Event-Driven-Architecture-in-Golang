@@ -7,8 +7,8 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/baskets/internal/domain"
-	"eda-in-golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
 )
 
 type StoreCacheRepository struct {

@@ -4,12 +4,12 @@ import (
 	"context"
 	"database/sql"
 
-	"eda-in-golang/cosec/internal"
-	"eda-in-golang/cosec/internal/models"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/di"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec/internal"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
 )
 
 func RegisterReplyHandlersTx(container di.Container) error {

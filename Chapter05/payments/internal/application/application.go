@@ -5,7 +5,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"eda-in-golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
 )
 
 type (

@@ -7,11 +7,11 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/di"
-	"eda-in-golang/internal/errorsotel"
-	"eda-in-golang/stores/internal/constants"
-	"eda-in-golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/errorsotel"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/constants"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
 )
 
 type catalogHandlers[T ddd.Event] struct {

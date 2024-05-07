@@ -3,18 +3,18 @@ package depot
 import (
 	"context"
 
-	"eda-in-golang/depot/internal/application"
-	"eda-in-golang/depot/internal/grpc"
-	"eda-in-golang/depot/internal/handlers"
-	"eda-in-golang/depot/internal/logging"
-	"eda-in-golang/depot/internal/postgres"
-	"eda-in-golang/depot/internal/rest"
-	"eda-in-golang/internal/am"
-	"eda-in-golang/internal/ddd"
-	"eda-in-golang/internal/jetstream"
-	"eda-in-golang/internal/monolith"
-	"eda-in-golang/internal/registry"
-	"eda-in-golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
 )
 
 type Module struct{}

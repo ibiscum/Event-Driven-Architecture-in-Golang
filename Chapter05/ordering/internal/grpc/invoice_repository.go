@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"eda-in-golang/ordering/internal/domain"
-	"eda-in-golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
 )
 
 type InvoiceRepository struct {

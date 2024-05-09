@@ -3,12 +3,12 @@ package ordering
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/rest"
 )
 
 type Module struct{}

@@ -6,9 +6,9 @@ import (
 	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/baskets/internal/application"
 	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/baskets/internal/grpc"
 	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/baskets/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/baskets/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/baskets/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/internal/monolith"
 )
 
 type Module struct{}

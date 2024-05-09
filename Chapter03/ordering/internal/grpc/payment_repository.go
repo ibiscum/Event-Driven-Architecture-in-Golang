@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/payments/paymentspb"
 )
 
 type PaymentRepository struct {

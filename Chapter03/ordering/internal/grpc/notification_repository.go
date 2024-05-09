@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/notificationspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/notifications/notificationspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/internal/domain"
 )
 
 type NotificationRepository struct {

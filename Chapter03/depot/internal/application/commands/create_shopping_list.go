@@ -5,7 +5,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/depot/internal/domain"
 )
 
 type CreateShoppingList struct {

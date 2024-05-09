@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/notifications/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/notifications/internal/models"
 )
 
 type CustomerRepository struct {

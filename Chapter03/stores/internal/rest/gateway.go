@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/stores/storespb"
 )
 
 func RegisterGateway(ctx context.Context, mux *chi.Mux, grpcAddr string) error {

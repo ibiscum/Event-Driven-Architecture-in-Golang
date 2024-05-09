@@ -8,8 +8,8 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/config"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/waiter"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/internal/waiter"
 )
 
 type Monolith interface {

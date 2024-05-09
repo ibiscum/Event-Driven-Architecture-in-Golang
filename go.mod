@@ -135,12 +135,16 @@ require (
 	github.com/cucumber/messages/go/v21 v21.0.1 // indirect
 	github.com/go-chi/chi/v5 v5.0.12
 	github.com/gofrs/uuid v4.3.1+incompatible // indirect
+	github.com/google/uuid v1.6.0
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.19.1
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
 	github.com/hashicorp/go-memdb v1.3.4 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/jackc/pgx/v4 v4.18.3
+	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/rs/zerolog v1.32.0
 	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/stackus/dotenv v0.0.0-20221206033122-02295762494b
 	github.com/stackus/errors v0.1.5
+	golang.org/x/sync v0.7.0
 )

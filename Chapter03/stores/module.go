@@ -3,12 +3,12 @@ package stores
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/stores/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/stores/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/stores/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/stores/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/stores/internal/rest"
 )
 
 type Module struct {

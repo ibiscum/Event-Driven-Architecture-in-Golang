@@ -16,7 +16,7 @@ Keep an architectural decision log that will record all decisions regarding arch
 
 The records will use the following markdown.
 
-    # {RecordNum}. {Title}
+    # {RecordNum}.{Title}
 
     Date: {YYYY/MM/DD}
 

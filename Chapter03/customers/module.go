@@ -3,12 +3,12 @@ package customers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/customers/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/customers/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/customers/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/customers/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/customers/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/internal/monolith"
 )
 
 type Module struct{}

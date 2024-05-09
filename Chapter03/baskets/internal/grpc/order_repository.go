@@ -6,8 +6,8 @@ import (
 	"github.com/stackus/errors"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter03/ordering/orderingpb"
 )
 
 type OrderRepository struct {

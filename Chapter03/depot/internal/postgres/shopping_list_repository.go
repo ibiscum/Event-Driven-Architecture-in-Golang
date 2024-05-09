@@ -40,9 +40,6 @@ func (r ShoppingListRepository) Find(ctx context.Context, id string) (*domain.Sh
 	}
 
 	shoppingList.Status = domain.ToShoppingListStatus(status)
-	if err != nil {
-		return nil, err
-	}
 
 	err = json.Unmarshal(stops, &shoppingList.Stops)
 	if err != nil {

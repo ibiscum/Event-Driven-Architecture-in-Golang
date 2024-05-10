@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/stores/storespb"
 )
 
 type ProductHandlers[T ddd.Event] struct {

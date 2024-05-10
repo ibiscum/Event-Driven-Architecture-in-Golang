@@ -3,12 +3,12 @@ package payments
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/payments/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/payments/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/payments/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/payments/internal/rest"
 )
 
 type Module struct{}

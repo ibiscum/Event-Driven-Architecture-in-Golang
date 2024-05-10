@@ -3,7 +3,7 @@ package domain
 import (
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/internal/ddd"
 )
 
 const CustomerAggregate = "customers.CustomerAggregate"

@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter06/stores/storespb"
 )
 
 func RegisterStoreHandlers(storeHandlers ddd.EventHandler[ddd.Event], stream am.EventSubscriber) error {

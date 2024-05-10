@@ -3,14 +3,14 @@ package baskets
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/baskets/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/baskets/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/baskets/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/baskets/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/baskets/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/internal/monolith"
 )
 
 type Module struct{}

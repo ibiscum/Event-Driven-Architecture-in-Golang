@@ -3,10 +3,10 @@ package notifications
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/notifications/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/notifications/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/notifications/internal/logging"
 )
 
 type Module struct{}

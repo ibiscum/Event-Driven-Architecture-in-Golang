@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine AS builder
+FROM golang:1.22-alpine AS builder
 
 WORKDIR /mallbots
 
@@ -6,7 +6,7 @@ WORKDIR /mallbots
 # This allows the container build to reuse cached dependencies.
 # Expecting to copy go.mod and if present go.sum.
 COPY go.* ./
-RUN go mod download
+RUN go mod download -json
 
 # Copy local code to the container image.
 COPY . ./

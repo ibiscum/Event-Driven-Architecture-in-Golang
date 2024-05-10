@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/customers/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/internal/ddd"
 )
 
 type CustomerRepository struct {

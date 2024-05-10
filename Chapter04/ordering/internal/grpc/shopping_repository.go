@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter04/ordering/internal/domain"
 )
 
 type ShoppingRepository struct {

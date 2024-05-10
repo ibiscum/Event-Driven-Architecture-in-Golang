@@ -5,4 +5,5 @@ use (
 	./Chapter04
 	./Chapter05
 	./Chapter06
+	./Chapter10
 )

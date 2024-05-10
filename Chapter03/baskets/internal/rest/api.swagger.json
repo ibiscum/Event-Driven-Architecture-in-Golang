@@ -1,12 +1,22 @@
 {
-  "swagger": "2.0",
-  "info": {
-    "title": "Shopping Baskets",
-    "version": "1.0.0"
-  },
+    "swagger": "2.0",
+    "host": "localhost",
+    "schemes": ["http"],
+    "info": {
+      "title": "Basket",
+      "version": "1.0.0",
+      "contact": {},
+      "description": "Basket API"
+    },
   "tags": [
     {
       "name": "BasketService"
+    },
+    {
+        "name": "Basket"
+    },
+    {
+        "name": "Item"
     }
   ],
   "basePath": "/",
@@ -19,7 +29,7 @@
   "paths": {
     "/api/baskets": {
       "post": {
-        "summary": "Start a new shopping basket",
+        "description": "Start a new shopping basket",
         "operationId": "startBasket",
         "responses": {
           "200": {
@@ -52,7 +62,7 @@
     },
     "/api/baskets/{id}": {
       "get": {
-        "summary": "Get a basket",
+        "description": "Get a basket",
         "operationId": "getBasket",
         "responses": {
           "200": {
@@ -81,7 +91,7 @@
         ]
       },
       "delete": {
-        "summary": "Cancel a shopping basket",
+        "description": "Cancel a shopping basket",
         "operationId": "cancelBasket",
         "responses": {
           "200": {
@@ -112,7 +122,7 @@
     },
     "/api/baskets/{id}/addItem": {
       "put": {
-        "summary": "Add or add quantity to an item in the shopping basket",
+        "description": "Add or add quantity to an item in the shopping basket",
         "operationId": "addItem",
         "responses": {
           "200": {
@@ -151,7 +161,7 @@
     },
     "/api/baskets/{id}/checkout": {
       "put": {
-        "summary": "Checkout with a shopping basket",
+        "description": "Checkout with a shopping basket",
         "operationId": "checkoutBasket",
         "responses": {
           "200": {
@@ -190,7 +200,7 @@
     },
     "/api/baskets/{id}/removeItem": {
       "put": {
-        "summary": "Remove or remove quantity to an item in the shopping basket",
+        "description": "Remove or remove quantity to an item in the shopping basket",
         "operationId": "removeItem",
         "responses": {
           "200": {
@@ -273,7 +283,6 @@
         "items": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/basketspbItem"
           }
         }
@@ -359,7 +368,6 @@
         "details": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }

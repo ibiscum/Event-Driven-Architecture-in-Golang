@@ -3,7 +3,7 @@ package es
 import (
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/ddd"
 )
 
 type EventApplier interface {

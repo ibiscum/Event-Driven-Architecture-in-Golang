@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/domain"
 )
 
 type DecreaseProductPrice struct {

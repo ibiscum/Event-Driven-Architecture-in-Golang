@@ -3,18 +3,18 @@ package ordering
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/monolith"
+	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/rest"
 )
 
 type Module struct{}

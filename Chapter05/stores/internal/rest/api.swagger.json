@@ -184,13 +184,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "price": {
-                  "type": "number",
-                  "format": "double"
-                }
-              }
+              "$ref": "#/definitions/StoresServiceDecreaseProductPriceBody"
             }
           }
         ],
@@ -229,13 +223,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "price": {
-                  "type": "number",
-                  "format": "double"
-                }
-              }
+              "$ref": "#/definitions/StoresServiceIncreaseProductPriceBody"
             }
           }
         ],
@@ -274,15 +262,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/definitions/StoresServiceRebrandProductBody"
             }
           }
         ],
@@ -381,7 +361,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object"
+              "$ref": "#/definitions/StoresServiceEnableParticipationBody"
             }
           }
         ],
@@ -419,12 +399,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/definitions/StoresServiceRebrandStoreBody"
             }
           }
         ],
@@ -492,22 +467,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string"
-                },
-                "sku": {
-                  "type": "string"
-                },
-                "price": {
-                  "type": "number",
-                  "format": "double"
-                }
-              }
+              "$ref": "#/definitions/StoresServiceAddProductBody"
             }
           }
         ],
@@ -518,6 +478,64 @@
     }
   },
   "definitions": {
+    "StoresServiceAddProductBody": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "sku": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "StoresServiceDecreaseProductPriceBody": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "StoresServiceEnableParticipationBody": {
+      "type": "object"
+    },
+    "StoresServiceIncreaseProductPriceBody": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "StoresServiceRebrandProductBody": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "StoresServiceRebrandStoreBody": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    },
     "protobufAny": {
       "type": "object",
       "properties": {
@@ -540,6 +558,7 @@
         "details": {
           "type": "array",
           "items": {
+            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }
@@ -587,6 +606,7 @@
         "products": {
           "type": "array",
           "items": {
+            "type": "object",
             "$ref": "#/definitions/storespbProduct"
           }
         }
@@ -598,6 +618,7 @@
         "stores": {
           "type": "array",
           "items": {
+            "type": "object",
             "$ref": "#/definitions/storespbStore"
           }
         }
@@ -625,6 +646,7 @@
         "stores": {
           "type": "array",
           "items": {
+            "type": "object",
             "$ref": "#/definitions/storespbStore"
           }
         }

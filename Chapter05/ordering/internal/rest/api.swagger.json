@@ -1,13 +1,20 @@
 {
   "swagger": "2.0",
+  "host": "localhost",
+  "schemes": ["http"],
   "info": {
     "title": "Order Processing",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Order API",
+    "contact": {}
   },
   "tags": [
     {
       "name": "OrderingService"
-    }
+    },
+    {
+        "name": "Order"
+      }
   ],
   "basePath": "/",
   "consumes": [
@@ -19,7 +26,7 @@
   "paths": {
     "/api/ordering": {
       "post": {
-        "summary": "Start a new order",
+        "description": "Start a new order",
         "operationId": "createOrder",
         "responses": {
           "200": {
@@ -52,7 +59,7 @@
     },
     "/api/ordering/{id}": {
       "get": {
-        "summary": "Get na order",
+        "description": "Get an order",
         "operationId": "getOrder",
         "responses": {
           "200": {
@@ -81,7 +88,7 @@
         ]
       },
       "delete": {
-        "summary": "Cancel an order",
+        "description": "Cancel an order",
         "operationId": "cancelOrder",
         "responses": {
           "200": {
@@ -113,9 +120,6 @@
   },
   "definitions": {
     "orderingpbCancelOrderResponse": {
-      "type": "object"
-    },
-    "orderingpbCompleteOrderResponse": {
       "type": "object"
     },
     "orderingpbCreateOrderRequest": {
@@ -198,9 +202,6 @@
           "type": "string"
         }
       }
-    },
-    "orderingpbReadyOrderResponse": {
-      "type": "object"
     },
     "protobufAny": {
       "type": "object",

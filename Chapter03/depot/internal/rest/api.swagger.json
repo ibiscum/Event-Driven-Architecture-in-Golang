@@ -1,12 +1,19 @@
 {
   "swagger": "2.0",
+  "host": "localhost",
+  "schemes": ["http"],
   "info": {
     "title": "Depot Operations",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Depot API",
+    "contact": {}
   },
   "tags": [
     {
       "name": "DepotService"
+    },
+    {
+        "name": "ShoppingList"
     }
   ],
   "basePath": "/",
@@ -19,7 +26,7 @@
   "paths": {
     "/api/depot/shopping": {
       "post": {
-        "summary": "Schedule shopping tasks for an order",
+        "description": "Schedule shopping tasks for an order",
         "operationId": "createShoppingList",
         "responses": {
           "200": {
@@ -52,7 +59,7 @@
     },
     "/api/depot/shopping/{id}": {
       "post": {
-        "summary": "Cancel a shopping task",
+        "description": "Cancel a shopping task",
         "operationId": "cancelShoppingList",
         "responses": {
           "200": {
@@ -91,7 +98,7 @@
     },
     "/api/depot/shopping/{id}/assign": {
       "put": {
-        "summary": "Assign a shopping list to a bot",
+        "description": "Assign a shopping list to a bot",
         "operationId": "assignShoppingList",
         "responses": {
           "200": {
@@ -130,7 +137,7 @@
     },
     "/api/depot/shopping/{id}/complete": {
       "put": {
-        "summary": "Complete a shopping task",
+        "description": "Complete a shopping task",
         "operationId": "ccompleteShoppingList",
         "responses": {
           "200": {
@@ -201,7 +208,6 @@
         "items": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/depotpbOrderItem"
           }
         }
@@ -252,7 +258,6 @@
         "details": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }

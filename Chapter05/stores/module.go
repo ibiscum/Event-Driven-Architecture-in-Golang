@@ -3,19 +3,19 @@ package stores
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/monolith"
+	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/stores/internal/rest"
 )
 
 type Module struct {

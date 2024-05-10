@@ -3,8 +3,8 @@ package application
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/ddd"
 )
 
 type OrderHandlers[T ddd.AggregateEvent] struct {

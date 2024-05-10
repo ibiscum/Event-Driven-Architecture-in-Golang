@@ -3,7 +3,7 @@ package application
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/payments/internal/models"
 )
 
 type InvoiceRepository interface {

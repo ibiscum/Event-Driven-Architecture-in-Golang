@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/ordering/internal/domain"
 )
 
 type ReadyOrder struct {

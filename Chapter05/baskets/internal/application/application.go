@@ -5,7 +5,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/domain"
 )
 
 type (

@@ -3,18 +3,18 @@ package baskets
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/baskets/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/monolith"
+	pg "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter05/internal/registry/serdes"
 )
 
 type Module struct{}

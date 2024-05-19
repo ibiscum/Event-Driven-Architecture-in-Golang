@@ -3,18 +3,18 @@ package customers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/registry"
 )
 
 type Module struct{}

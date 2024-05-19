@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/basketsclient/models"
 )
 
 // AddItemReader is a Reader for the AddItem structure.

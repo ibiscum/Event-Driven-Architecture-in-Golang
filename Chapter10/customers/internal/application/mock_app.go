@@ -4,7 +4,7 @@ package application
 
 import (
 	context "context"
-	domain "github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/domain"
+	domain "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/customers/internal/domain"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/basketsclient/models"
 )
 
 // NewAddItemParams creates a new AddItemParams object,

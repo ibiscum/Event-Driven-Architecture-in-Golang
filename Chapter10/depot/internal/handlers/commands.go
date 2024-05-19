@@ -5,11 +5,11 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application/commands"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/depot/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
 )
 
 type commandHandlers struct {

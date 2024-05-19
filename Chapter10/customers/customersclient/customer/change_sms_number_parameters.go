@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/customers/customersclient/models"
 )
 
 // NewChangeSmsNumberParams creates a new ChangeSmsNumberParams object,

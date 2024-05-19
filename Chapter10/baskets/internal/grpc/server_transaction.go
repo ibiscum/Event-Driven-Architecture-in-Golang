@@ -6,9 +6,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/di"
 )
 
 type serverTx struct {

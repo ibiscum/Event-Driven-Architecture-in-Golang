@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/stores/internal/domain"
 )
 
 func RegisterMallHandlers(mallHandlers ddd.EventHandler[ddd.AggregateEvent], domainSubscriber ddd.EventSubscriber[ddd.AggregateEvent]) {

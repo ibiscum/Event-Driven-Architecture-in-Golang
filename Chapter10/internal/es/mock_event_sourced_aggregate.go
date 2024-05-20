@@ -3,7 +3,7 @@
 package es
 
 import (
-	ddd "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
+	ddd "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/ddd"
 
 	mock "github.com/stretchr/testify/mock"
 )

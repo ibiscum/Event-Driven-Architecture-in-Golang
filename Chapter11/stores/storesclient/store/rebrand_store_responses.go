@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storesclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/stores/storesclient/models"
 )
 
 // RebrandStoreReader is a Reader for the RebrandStore structure.

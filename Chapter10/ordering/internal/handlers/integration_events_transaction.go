@@ -4,12 +4,12 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/registry"
 )
 
 func RegisterIntegrationEventHandlersTx(container di.Container) error {

@@ -3,18 +3,18 @@ package notifications
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/system"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/system"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/notifications/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/notifications/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/notifications/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/notifications/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/notifications/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/orderingpb"
 )
 
 type Module struct{}

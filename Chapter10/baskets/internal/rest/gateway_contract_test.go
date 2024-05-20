@@ -13,13 +13,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	grpcstd "google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/rpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/rpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/web"
 )
 
 func TestProvider(t *testing.T) {

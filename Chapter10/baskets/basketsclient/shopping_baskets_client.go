@@ -10,8 +10,8 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/basketsclient/basket"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/basketsclient/item"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/basketsclient/basket"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/basketsclient/item"
 )
 
 // Default shopping baskets HTTP client.

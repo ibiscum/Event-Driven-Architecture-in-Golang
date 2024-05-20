@@ -3,14 +3,14 @@ package internal
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec/internal/models"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/cosec/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/payments/paymentspb"
 )
 
 const CreateOrderSagaName = "cosec.CreateOrder"

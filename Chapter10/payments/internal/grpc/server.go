@@ -6,8 +6,8 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/payments/paymentspb"
 )
 
 type server struct {

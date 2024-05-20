@@ -3,18 +3,18 @@ package payments
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/payments/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/payments/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/payments/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/payments/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/payments/internal/rest"
 )
 
 type Module struct{}

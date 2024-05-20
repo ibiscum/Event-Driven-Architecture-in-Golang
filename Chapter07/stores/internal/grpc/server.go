@@ -6,12 +6,12 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/stores/storespb"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/commands"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/queries"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/stores/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/stores/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/stores/internal/application/queries"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/stores/internal/domain"
 )
 
 type server struct {

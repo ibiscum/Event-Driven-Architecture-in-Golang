@@ -3,13 +3,13 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/stores/storespb"
 )
 
 type integrationHandlers[T ddd.Event] struct {

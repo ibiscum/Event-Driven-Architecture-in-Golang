@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb
+    default: github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/payments/paymentspb
     except:
       - buf.build/googleapis/googleapis
 plugins:

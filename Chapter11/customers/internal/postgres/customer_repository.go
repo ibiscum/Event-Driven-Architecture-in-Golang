@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/customers/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/postgres"
 )
 
 type CustomerRepository struct {

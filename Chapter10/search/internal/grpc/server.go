@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/searchpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/search/searchpb"
 )
 
 type server struct {

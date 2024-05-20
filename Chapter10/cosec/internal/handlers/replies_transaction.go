@@ -4,12 +4,12 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/cosec/internal"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/cosec/internal/models"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/di"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/cosec/internal"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/cosec/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/sec"
 )
 
 func RegisterReplyHandlersTx(container di.Container) error {

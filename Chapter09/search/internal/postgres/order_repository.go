@@ -10,9 +10,9 @@ import (
 
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/search/internal/models"
 )
 
 type OrderRepository struct {

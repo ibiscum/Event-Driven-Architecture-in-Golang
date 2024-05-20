@@ -3,11 +3,11 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec/internal/models"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/sec"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/cosec/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/sec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/ordering/orderingpb"
 )
 
 type integrationHandlers[T ddd.Event] struct {

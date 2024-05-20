@@ -8,7 +8,7 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/am"
 )
 
 const maxRetries = 5

@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/registry/serdes"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/stores/storespb"
 )
 
 type String = matchers.String

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/registry"
 )
 
 type AggregateRepository[T EventSourcedAggregate] struct {

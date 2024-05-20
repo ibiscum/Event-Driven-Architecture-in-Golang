@@ -3,8 +3,8 @@ package application
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/stores/storespb"
 )
 
 type StoreHandlers[T ddd.Event] struct {

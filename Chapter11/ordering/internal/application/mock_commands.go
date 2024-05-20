@@ -4,7 +4,7 @@ package application
 
 import (
 	context "context"
-	commands "github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/commands"
+	commands "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/internal/application/commands"
 
 	mock "github.com/stretchr/testify/mock"
 )

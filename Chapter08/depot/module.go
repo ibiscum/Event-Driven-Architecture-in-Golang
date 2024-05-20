@@ -3,19 +3,19 @@ package depot
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/stores/storespb"
 )
 
 type Module struct{}

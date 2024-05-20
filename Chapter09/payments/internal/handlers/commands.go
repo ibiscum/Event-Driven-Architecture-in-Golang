@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/payments/paymentspb"
 )
 
 type commandHandlers struct {

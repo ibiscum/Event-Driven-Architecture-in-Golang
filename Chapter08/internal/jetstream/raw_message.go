@@ -1,7 +1,7 @@
 package jetstream
 
 import (
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/internal/am"
 )
 
 type rawMessage struct {

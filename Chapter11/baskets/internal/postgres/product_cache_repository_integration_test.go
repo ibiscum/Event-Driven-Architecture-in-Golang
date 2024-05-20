@@ -18,9 +18,9 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/logger/log"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/migrations"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/logger/log"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/migrations"
 )
 
 type productCacheSuite struct {

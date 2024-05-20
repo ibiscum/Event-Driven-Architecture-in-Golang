@@ -3,10 +3,10 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/orderingpb"
 )
 
 type domainHandlers[T ddd.Event] struct {

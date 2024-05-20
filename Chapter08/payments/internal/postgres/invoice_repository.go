@@ -7,8 +7,8 @@ import (
 
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/payments/internal/models"
 )
 
 type InvoiceRepository struct {

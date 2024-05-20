@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/customers/customersclient/models"
 )
 
 // CreateCustomerReader is a Reader for the CreateCustomer structure.

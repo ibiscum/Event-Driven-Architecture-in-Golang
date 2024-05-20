@@ -14,9 +14,9 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/config"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/waiter"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/internal/waiter"
 )
 
 type app struct {

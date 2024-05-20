@@ -3,13 +3,13 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/commands"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/ordering/internal/domain"
 )
 
 type integrationHandlers[T ddd.Event] struct {

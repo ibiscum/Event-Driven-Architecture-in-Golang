@@ -6,9 +6,9 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/depotpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter08/depot/internal/application/commands"
 )
 
 type server struct {

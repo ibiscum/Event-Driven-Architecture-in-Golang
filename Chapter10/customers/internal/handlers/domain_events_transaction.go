@@ -3,8 +3,8 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/di"
 )
 
 func RegisterDomainEventHandlersTx(container di.Container) {

@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter11/stores/internal/domain"
 )
 
 type mallHandlers[T ddd.Event] struct {

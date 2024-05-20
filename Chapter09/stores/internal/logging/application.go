@@ -5,10 +5,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/commands"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/queries"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/stores/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/stores/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/stores/internal/application/queries"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/stores/internal/domain"
 )
 
 type Application struct {

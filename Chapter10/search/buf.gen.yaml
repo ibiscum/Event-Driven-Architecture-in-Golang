@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/searchpb
+    default: github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/search/searchpb
     except:
       - buf.build/googleapis/googleapis
 plugins:

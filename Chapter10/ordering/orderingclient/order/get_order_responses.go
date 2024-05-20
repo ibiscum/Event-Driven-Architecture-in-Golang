@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/ordering/orderingclient/models"
 )
 
 // GetOrderReader is a Reader for the GetOrder structure.

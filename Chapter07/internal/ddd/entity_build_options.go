@@ -3,7 +3,7 @@ package ddd
 import (
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/registry"
 )
 
 type IDSetter interface {

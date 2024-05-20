@@ -4,10 +4,10 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/registry"
 )
 
 func RegisterCommandHandlersTx(container di.Container) error {

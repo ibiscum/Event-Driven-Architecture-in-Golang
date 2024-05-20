@@ -3,17 +3,17 @@ package notifications
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/notifications/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/notifications/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/notifications/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/notifications/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/notifications/internal/postgres"
 )
 
 type Module struct{}

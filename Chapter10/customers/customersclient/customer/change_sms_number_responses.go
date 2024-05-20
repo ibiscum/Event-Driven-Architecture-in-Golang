@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/customers/customersclient/models"
 )
 
 // ChangeSmsNumberReader is a Reader for the ChangeSmsNumber structure.

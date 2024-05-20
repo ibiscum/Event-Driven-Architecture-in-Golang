@@ -3,11 +3,11 @@ package handlers
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/internal/application/commands"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/ordering/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/ordering/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/ordering/orderingpb"
 )
 
 type commandHandlers struct {

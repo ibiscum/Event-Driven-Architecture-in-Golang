@@ -3,18 +3,18 @@ package depot
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/handlers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/logging"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/internal/rest"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/jetstream"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/monolith"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/depot/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/depot/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/depot/internal/handlers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/depot/internal/logging"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/depot/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/depot/internal/rest"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/jetstream"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/monolith"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/stores/storespb"
 )
 
 type Module struct{}

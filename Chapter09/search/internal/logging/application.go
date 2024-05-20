@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter09/search/internal/models"
 )
 
 type Application struct {

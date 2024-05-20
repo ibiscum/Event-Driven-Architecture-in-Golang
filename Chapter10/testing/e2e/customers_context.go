@@ -5,9 +5,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/customer"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/customers/customersclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/customers/customersclient/customer"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/customers/customersclient/models"
 )
 
 type customersContext struct {

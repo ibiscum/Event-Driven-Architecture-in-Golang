@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/ordering/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/ordering/internal/domain"
 )
 
 type CancelOrder struct {

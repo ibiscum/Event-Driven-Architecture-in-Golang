@@ -5,10 +5,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customerspb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customerspb"
 )
 
 func RegisterGateway(ctx context.Context, mux *chi.Mux, grpcAddr string) error {

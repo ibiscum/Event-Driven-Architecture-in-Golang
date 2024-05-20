@@ -7,6 +7,7 @@ use (
 	./Chapter06
 	./Chapter07
 	./Chapter07/baskets
+	./Chapter07/customers/customerspb
 	./Chapter10
 	./Chapter12
 )

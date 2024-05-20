@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   #
   # docker compose--profile monolith up
@@ -236,7 +234,7 @@ services:
   postgres:
     container_name: postgres
     hostname: postgres
-    image: postgres:14-alpine
+    image: postgres:alpine
     restart: always
     environment:
       POSTGRES_PASSWORD: itsasecret

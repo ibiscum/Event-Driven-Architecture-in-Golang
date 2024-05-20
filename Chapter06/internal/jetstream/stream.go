@@ -170,6 +170,8 @@ func (s *Stream) handleMsg(cfg am.SubscriberConfig, handler am.MessageHandler[am
 			}
 			if nakErr := msg.NAck(); nakErr != nil {
 				// TODO logging?
+				log.Fatal(nakErr)
+
 			}
 		case <-wCtx.Done():
 			// TODO logging?

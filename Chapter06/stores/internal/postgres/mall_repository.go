@@ -76,6 +76,7 @@ func (r MallRepository) All(ctx context.Context) (stores []*domain.MallStore, er
 		err := rows.Close()
 		if err != nil {
 			err = errors.Wrap(err, "closing store rows")
+			log.Fatal(err)
 		}
 	}(rows)
 

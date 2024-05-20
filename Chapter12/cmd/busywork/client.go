@@ -11,10 +11,10 @@ import (
 	"github.com/ddosify/go-faker/faker"
 	"github.com/go-openapi/runtime/client"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cmd/busywork/baskets"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cmd/busywork/customers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cmd/busywork/payments"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cmd/busywork/stores"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/cmd/busywork/baskets"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/cmd/busywork/customers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/cmd/busywork/payments"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/cmd/busywork/stores"
 )
 
 var f = faker.NewFaker()

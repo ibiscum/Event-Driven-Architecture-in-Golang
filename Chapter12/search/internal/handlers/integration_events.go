@@ -7,15 +7,15 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/errorsotel"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingpb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search/internal/models"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/storespb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/errorsotel"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/ordering/orderingpb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/search/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/search/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/stores/storespb"
 )
 
 type integrationHandlers[T ddd.Event] struct {

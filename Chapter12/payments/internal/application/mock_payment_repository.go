@@ -4,7 +4,7 @@ package application
 
 import (
 	context "context"
-	models "github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
+	models "github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments/internal/models"
 
 	mock "github.com/stretchr/testify/mock"
 )

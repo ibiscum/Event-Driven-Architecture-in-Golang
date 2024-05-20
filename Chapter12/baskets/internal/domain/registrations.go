@@ -1,9 +1,9 @@
 package domain
 
 import (
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/es"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry/serdes"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/registry/serdes"
 )
 
 const (

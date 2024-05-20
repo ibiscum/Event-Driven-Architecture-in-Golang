@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/postgres"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/internal/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments/internal/models"
 )
 
 type PaymentRepository struct {

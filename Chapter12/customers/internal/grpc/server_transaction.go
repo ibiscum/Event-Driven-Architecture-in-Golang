@@ -6,10 +6,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customerspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/internal/constants"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/customerspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/internal/constants"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/di"
 )
 
 type serverTx struct {

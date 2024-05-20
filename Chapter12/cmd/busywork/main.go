@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/waiter"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/waiter"
 )
 
 var clients = flag.Int("clients", 5, "Number of clients to have running concurrently [min:1, max:25]")

@@ -8,19 +8,19 @@ import (
 
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/cosec"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/config"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/system"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/web"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/migrations"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/notifications"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/search"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/cosec"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/depot"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/system"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/migrations"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/notifications"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/ordering"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/search"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/stores"
 )
 
 type monolith struct {

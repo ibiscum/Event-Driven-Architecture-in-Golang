@@ -16,13 +16,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	grpcstd "google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/grpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/registry"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/rpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/internal/grpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/rpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/web"
 )
 
 var pactBrokerURL string

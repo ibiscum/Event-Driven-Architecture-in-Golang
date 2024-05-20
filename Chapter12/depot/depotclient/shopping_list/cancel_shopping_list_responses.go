@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/depot/depotclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/depot/depotclient/models"
 )
 
 // CancelShoppingListReader is a Reader for the CancelShoppingList structure.

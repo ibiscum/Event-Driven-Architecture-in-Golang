@@ -42,7 +42,7 @@ func (h StoreHandlers[T]) onStoreCreated(ctx context.Context, event ddd.Event) e
 
 func (h StoreHandlers[T]) onStoreParticipationToggled(ctx context.Context, event ddd.Event) error {
 	payload := event.Payload().(*storespb.StoreParticipationToggled)
-	h.logger.Debug().Msgf(`ID: %s, Participating: %b`, payload.GetId(), payload.Participating)
+	h.logger.Debug().Msgf(`ID: %s, Participating: %b`, payload.GetId(), &payload.Participating)
 	return nil
 }
 

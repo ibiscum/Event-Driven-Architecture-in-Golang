@@ -10,7 +10,7 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/ordering/orderingclient/order"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/ordering/orderingclient/order"
 )
 
 // Default order processing HTTP client.

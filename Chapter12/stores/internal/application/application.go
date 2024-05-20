@@ -3,10 +3,10 @@ package application
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/commands"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/application/queries"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/stores/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/stores/internal/application/commands"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/stores/internal/application/queries"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/stores/internal/domain"
 )
 
 type (

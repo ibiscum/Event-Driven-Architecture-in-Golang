@@ -8,11 +8,11 @@ import (
 
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/migrations"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/config"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/system"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/migrations"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/system"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/web"
 )
 
 func main() {

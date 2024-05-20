@@ -10,7 +10,7 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/customer"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/customersclient/customer"
 )
 
 // Default customers HTTP client.

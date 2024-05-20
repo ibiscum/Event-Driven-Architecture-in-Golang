@@ -6,7 +6,7 @@ import (
 
 	"go.opentelemetry.io/otel/propagation"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/ddd"
 )
 
 type MetadataCarrier ddd.Metadata

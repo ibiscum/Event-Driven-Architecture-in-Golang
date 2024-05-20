@@ -38,7 +38,7 @@ func (h ProductHandlers[T]) HandleEvent(ctx context.Context, event T) error {
 
 func (h ProductHandlers[T]) onProductAdded(ctx context.Context, event ddd.Event) error {
 	payload := event.Payload().(*storespb.ProductAdded)
-	h.logger.Debug().Msgf(`ID: %s, Name: "%s", Price: "%d"`, payload.GetId(), payload.GetName(), payload.GetPrice())
+	h.logger.Debug().Msgf(`ID: %s, Name: "%s", Price: "%f"`, payload.GetId(), payload.GetName(), payload.GetPrice())
 	return nil
 }
 
@@ -50,12 +50,12 @@ func (h ProductHandlers[T]) onProductRebranded(ctx context.Context, event ddd.Ev
 
 func (h ProductHandlers[T]) onProductPriceChanged(ctx context.Context, event ddd.Event) error {
 	payload := event.Payload().(*storespb.ProductPriceChanged)
-	h.logger.Debug().Msgf(`ID: %s, Delta: "%d"`, payload.GetId(), payload.GetDelta())
+	h.logger.Debug().Msgf(`ID: %s, Delta: "%f"`, payload.GetId(), payload.GetDelta())
 	return nil
 }
 
 func (h ProductHandlers[T]) onProductRemoved(ctx context.Context, event ddd.Event) error {
 	payload := event.Payload().(*storespb.ProductRemoved)
-	h.logger.Debug().Msgf(`ID: %s, Price: "%d"`, payload.GetId())
+	h.logger.Debug().Msgf(`ID: %s`, payload.GetId())
 	return nil
 }

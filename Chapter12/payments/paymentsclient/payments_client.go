@@ -10,8 +10,8 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient/invoice"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient/payment"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments/paymentsclient/invoice"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments/paymentsclient/payment"
 )
 
 // Default payments HTTP client.

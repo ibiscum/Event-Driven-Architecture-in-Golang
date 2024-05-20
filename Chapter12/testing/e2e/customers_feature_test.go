@@ -11,9 +11,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/customer"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/customers/customersclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/customersclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/customersclient/customer"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/customers/customersclient/models"
 )
 
 type customerIDKey = struct{}

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/payments/paymentsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/payments/paymentsclient/models"
 )
 
 // NewAuthorizePaymentParams creates a new AuthorizePaymentParams object,

@@ -6,10 +6,10 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/basket"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/item"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/basketsclient/models"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/basketsclient"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/basketsclient/basket"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/basketsclient/item"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/basketsclient/models"
 )
 
 type Client interface {

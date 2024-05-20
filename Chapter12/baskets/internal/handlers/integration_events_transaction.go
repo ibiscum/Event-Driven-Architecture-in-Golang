@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/baskets/internal/constants"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/am"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/internal/di"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/baskets/internal/constants"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter12/internal/di"
 )
 
 func RegisterIntegrationEventHandlersTx(container di.Container) error {

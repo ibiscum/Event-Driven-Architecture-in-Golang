@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/baskets/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/ddd"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/es"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/ddd"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/es"
 )
 
 func TestApplication_AddItem(t *testing.T) {

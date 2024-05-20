@@ -3,7 +3,7 @@ package inmemory
 import (
 	"context"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/am"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/am"
 )
 
 type stream struct {

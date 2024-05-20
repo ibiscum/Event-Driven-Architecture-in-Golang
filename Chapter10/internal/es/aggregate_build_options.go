@@ -3,7 +3,7 @@ package es
 import (
 	"fmt"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/registry"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/registry"
 )
 
 type VersionSetter interface {

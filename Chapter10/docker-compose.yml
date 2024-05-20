@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   monolith:
     container_name: monolith
@@ -19,7 +17,7 @@ services:
   postgres:
     container_name: postgres
     hostname: postgres
-    image: postgres:12-alpine
+    image: postgres:alpine
     restart: always
     environment:
       POSTGRES_PASSWORD: itsasecret

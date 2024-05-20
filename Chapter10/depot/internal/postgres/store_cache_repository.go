@@ -9,8 +9,8 @@ import (
 	"github.com/jackc/pgerrcode"
 	"github.com/stackus/errors"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/depot/internal/domain"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/postgres"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/depot/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/postgres"
 )
 
 type StoreCacheRepository struct {

@@ -9,8 +9,8 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/config"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/waiter"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/config"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/waiter"
 )
 
 type Monolith interface {

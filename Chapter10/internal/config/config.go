@@ -8,8 +8,8 @@ import (
 
 	"github.com/stackus/dotenv"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/rpc"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/Chapter10/internal/web"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/rpc"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter10/internal/web"
 )
 
 type (

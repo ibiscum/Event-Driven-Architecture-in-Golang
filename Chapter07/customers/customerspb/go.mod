@@ -1,4 +1,4 @@
-module github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customerspb
+module github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/customers/customerspb
 
 go 1.22.1
 

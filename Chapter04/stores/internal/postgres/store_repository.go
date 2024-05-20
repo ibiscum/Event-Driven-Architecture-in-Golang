@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log"
 
 	"github.com/stackus/errors"
 
@@ -50,6 +51,7 @@ func (r StoreRepository) FindAll(ctx context.Context) (stores []*domain.Store, e
 		err := rows.Close()
 		if err != nil {
 			err = errors.Wrap(err, "closing store rows")
+			log.Fatal(err)
 		}
 	}(rows)
 
@@ -81,6 +83,7 @@ func (r StoreRepository) FindParticipatingStores(ctx context.Context) (stores []
 		err := rows.Close()
 		if err != nil {
 			err = errors.Wrap(err, "closing participating store rows")
+			log.Fatal(err)
 		}
 	}(rows)
 

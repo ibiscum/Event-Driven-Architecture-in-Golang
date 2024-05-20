@@ -17,7 +17,7 @@ import (
 )
 
 var clients = flag.Int("clients", 5, "Number of clients to have running concurrently [min:1, max:25]")
-var hostAddr = flag.String("host", "localhost:8080", "Sets the host address of the mallbots application")
+var hostAddr = flag.String("host", "localhost:8081", "Sets the host address of the mallbots application")
 var otlpAddr = flag.String("otlp", "http://collector:4317", "Sets the host address of the OpenTelemetry Collector")
 
 func main() {

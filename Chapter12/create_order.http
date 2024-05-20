@@ -1,5 +1,5 @@
 ### Create Store
-POST http://localhost:8080/api/stores
+POST http://localhost:8081/api/stores
 Content-Type: application/json
 Accept: application/json
 
@@ -11,7 +11,7 @@ Accept: application/json
 > {% client.global.set("storeID", response.body.id); %}
 
 ### Create Product
-POST http://localhost:8080/api/stores/{{storeID}}/products
+POST http://localhost:8081/api/stores/{{storeID}}/products
 Content-Type: application/json
 Accept: application/json
 
@@ -25,7 +25,7 @@ Accept: application/json
 > {% client.global.set("productID", response.body.id); %}
 
 ### Register Customer
-POST http://localhost:8080/api/customers
+POST http://localhost:8081/api/customers
 Content-Type: application/json
 Accept: application/json
 
@@ -37,7 +37,7 @@ Accept: application/json
 > {% client.global.set("customerID", response.body.id); %}
 
 ### Start Basket
-POST http://localhost:8080/api/baskets
+POST http://localhost:8081/api/baskets
 Content-Type: application/json
 Accept: application/json
 
@@ -48,7 +48,7 @@ Accept: application/json
 > {% client.global.set("basketID", response.body.id); %}
 
 ### Add Items
-PUT http://localhost:8080/api/baskets/{{basketID}}/addItem
+PUT http://localhost:8081/api/baskets/{{basketID}}/addItem
 Content-Type: application/json
 Accept: application/json
 
@@ -58,7 +58,7 @@ Accept: application/json
 }
 
 ### Create Payment
-POST http://localhost:8080/api/payments
+POST http://localhost:8081/api/payments
 Content-Type: application/json
 Accept: application/json
 
@@ -70,7 +70,7 @@ Accept: application/json
 > {% client.global.set("paymentID", response.body.id); %}
 
 ### Checkout Basket
-PUT http://localhost:8080/api/baskets/{{basketID}}/checkout
+PUT http://localhost:8081/api/baskets/{{basketID}}/checkout
 Content-Type: application/json
 Accept: application/json
 

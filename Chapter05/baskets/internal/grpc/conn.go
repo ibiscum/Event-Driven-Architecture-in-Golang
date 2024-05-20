@@ -2,6 +2,7 @@ package grpc
 
 import (
 	"context"
+	"log"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
@@ -16,6 +17,7 @@ func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err erro
 		if err != nil {
 			if err = conn.Close(); err != nil {
 				// TODO do something when logging is a thing
+				log.Fatal(err)
 			}
 			return
 		}
@@ -23,6 +25,7 @@ func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err erro
 			<-ctx.Done()
 			if err = conn.Close(); err != nil {
 				// TODO do something when logging is a thing
+				log.Fatal(err)
 			}
 		}()
 	}()

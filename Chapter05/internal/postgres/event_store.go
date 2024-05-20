@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log"
 	"time"
 
 	"github.com/stackus/errors"
@@ -56,6 +57,7 @@ func (s EventStore) Load(ctx context.Context, aggregate es.EventSourcedAggregate
 		err := rows.Close()
 		if err != nil {
 			err = errors.Wrap(err, "closing event rows")
+			log.Fatal(err)
 		}
 	}(rows)
 

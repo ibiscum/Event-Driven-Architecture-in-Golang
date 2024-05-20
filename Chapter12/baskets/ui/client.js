@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 class Client {
-  constructor(host = 'http://localhost:8080') {
+  constructor(host = 'http://localhost:8081') {
     this.host = host;
   }
 

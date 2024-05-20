@@ -12,7 +12,7 @@ import (
 
 func TestEndToEnd(t *testing.T) {
 	sc := &suiteContext{
-		transport: client.New("localhost:8080", "/", nil),
+		transport: client.New("localhost:8081", "/", nil),
 	}
 
 	var err error

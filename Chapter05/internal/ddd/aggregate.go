@@ -66,7 +66,7 @@ func (a *Aggregate) AddEvent(name string, payload EventPayload, options ...Event
 	)
 }
 
-func (a *Aggregate) setEvents(events []AggregateEvent) { a.events = events }
+// func (a *Aggregate) setEvents(events []AggregateEvent) { a.events = events }
 
 func (e aggregateEvent) AggregateName() string { return e.metadata.Get(AggregateNameKey).(string) }
 func (e aggregateEvent) AggregateID() string   { return e.metadata.Get(AggregateIDKey).(string) }

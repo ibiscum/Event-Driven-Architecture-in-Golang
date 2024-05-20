@@ -6,9 +6,9 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/baskets/basketspb"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/baskets/internal/application"
-	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter07/baskets/internal/domain"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/baskets/basketspb"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/baskets/internal/application"
+	"github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/baskets/internal/domain"
 )
 
 type server struct {

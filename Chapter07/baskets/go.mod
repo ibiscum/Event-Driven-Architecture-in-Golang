@@ -1,4 +1,4 @@
-module github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/Chapter06/baskets
+module github.com/ibiscum/Event-Driven-Architecture-in-Golang/Chapter07/baskets
 
 go 1.22.1
 

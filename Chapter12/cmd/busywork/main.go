@@ -43,7 +43,7 @@ func run() error {
 
 	wait := waiter.New(waiter.CatchSignals())
 
-	rand.Seed(time.Now().UnixNano())
+	// rand.Seed(time.Now().UnixNano())
 	for i := 0; i < *clients; i++ {
 		jitter := time.Duration(rand.Int63n(int64(3 * time.Second)))
 		interval := 8*time.Second + jitter

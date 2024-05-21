@@ -91,7 +91,7 @@ func TestStoresConsumer(t *testing.T) {
 			}
 			handlers := NewIntegrationEventHandlers(m.stores, m.products)
 			msgHandlerFn := func(contents v4.MessageContents) error {
-				event := contents.Content.(*rawEvent)
+				event := contents.Body.(*rawEvent)
 
 				data, err := json.Marshal(event.Payload)
 				if err != nil {

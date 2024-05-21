@@ -16,7 +16,7 @@ func clientErrorUnaryInterceptor() grpc.UnaryClientInterceptor {
 }
 
 func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err error) {
-	return grpc.DialContext(ctx, endpoint,
+	return grpc.NewClient(endpoint,
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 		grpc.WithChainUnaryInterceptor(
 			otelgrpc.UnaryClientInterceptor(),

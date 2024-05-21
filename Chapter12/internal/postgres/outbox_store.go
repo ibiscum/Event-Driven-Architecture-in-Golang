@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"log"
 	"time"
 
 	"github.com/jackc/pgconn"
@@ -73,6 +74,7 @@ func (s OutboxStore) FindUnpublished(ctx context.Context, limit int) ([]am.Messa
 		err := rows.Close()
 		if err != nil {
 			err = errors.Wrap(err, "closing event rows")
+			log.Fatal(err)
 		}
 	}(rows)
 
@@ -87,6 +89,7 @@ func (s OutboxStore) FindUnpublished(ctx context.Context, limit int) ([]am.Messa
 		}
 
 		err = json.Unmarshal(metadata, &msg.metadata)
+		log.Fatal(err)
 
 		msgs = append(msgs, msg)
 	}

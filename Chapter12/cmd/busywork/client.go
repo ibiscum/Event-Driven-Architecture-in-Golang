@@ -54,13 +54,12 @@ func (c *busyworkClient) run(ctx context.Context) error {
 			// time to get busy
 			err := c.work(context.Background())
 			if err != nil {
-				c.log.Println(fmt.Sprintf(`is having a hard time. Error: %s`, err.Error()))
+				c.log.Printf(fmt.Sprintf(`is having a hard time. Error: %s`, err.Error()))
 			}
 			timer.Reset(c.interval)
 		case <-ctx.Done():
 			c.log.Println("Quitting time")
 			return nil
-		default:
 		}
 	}
 }
@@ -131,7 +130,7 @@ func (c *busyworkClient) setupAStore(ctx context.Context) error {
 		return err
 	}
 
-	c.log.Println(fmt.Sprintf(`has finished setting up "%s"`, name))
+	c.log.Printf(fmt.Sprintf(`has finished setting up "%s"`, name))
 	return nil
 }
 
@@ -182,7 +181,7 @@ func (c *busyworkClient) rebrandStore(ctx context.Context) error {
 	if err != nil {
 		return nil
 	}
-	c.log.Println(fmt.Sprintf(`has rebranded the store "%s" to "%s"`, name, newName))
+	c.log.Printf(fmt.Sprintf(`has rebranded the store "%s" to "%s"`, name, newName))
 	return nil
 }
 
@@ -223,7 +222,7 @@ func (c *busyworkClient) rebrandProduct(ctx context.Context) error {
 	if err != nil {
 		return nil
 	}
-	c.log.Println(fmt.Sprintf(`has rebranded the product "%s" to "%s"`, name, newName))
+	c.log.Printf(fmt.Sprintf(`has rebranded the product "%s" to "%s"`, name, newName))
 	return nil
 }
 
@@ -263,7 +262,7 @@ func (c *busyworkClient) justBrowsing(ctx context.Context) error {
 		if err != nil {
 			return err
 		}
-		c.log.Println(fmt.Sprintf(`is browsing the items from "%s"`, name))
+		c.log.Printf(fmt.Sprintf(`is browsing the items from "%s"`, name))
 		c.pause()
 
 		productIDs, err := c.stores.GetCatalog(ctx, storeID)
@@ -274,8 +273,11 @@ func (c *busyworkClient) justBrowsing(ctx context.Context) error {
 		productID := productIDs[rand.Intn(len(productIDs))]
 
 		name, price, err := c.stores.GetProductDetails(ctx, productID)
+		if err != nil {
+			return err
+		}
 		quantity := 1 + rand.Intn(4)
-		c.log.Println(fmt.Sprintf(`might buy %d "%s" for $%.2f each`, quantity, name, price))
+		c.log.Printf(fmt.Sprintf(`might buy %d "%s" for $%.2f each`, quantity, name, price))
 
 		total += price * float64(quantity)
 
@@ -284,7 +286,7 @@ func (c *busyworkClient) justBrowsing(ctx context.Context) error {
 			return err
 		}
 	}
-	c.log.Println(fmt.Sprintf(`thinks $%.2f is too much`, total))
+	c.log.Printf(fmt.Sprintf(`thinks $%.2f is too much`, total))
 	return c.baskets.CancelBasket(ctx, basketID)
 
 }
@@ -325,7 +327,7 @@ func (c *busyworkClient) buyingItems(ctx context.Context) error {
 		if err != nil {
 			return err
 		}
-		c.log.Println(fmt.Sprintf(`is browsing the items from "%s"`, name))
+		c.log.Printf(fmt.Sprintf(`is browsing the items from "%s"`, name))
 		c.pause()
 
 		productIDs, err := c.stores.GetCatalog(ctx, storeID)
@@ -336,8 +338,11 @@ func (c *busyworkClient) buyingItems(ctx context.Context) error {
 		productID := productIDs[rand.Intn(len(productIDs))]
 
 		name, price, err := c.stores.GetProductDetails(ctx, productID)
+		if err != nil {
+			return err
+		}
 		quantity := 1 + rand.Intn(4)
-		c.log.Println(fmt.Sprintf(`might buy %d "%s" for $%.2f each`, quantity, name, price))
+		c.log.Printf(fmt.Sprintf(`might buy %d "%s" for $%.2f each`, quantity, name, price))
 
 		total += price * float64(quantity)
 
@@ -346,7 +351,7 @@ func (c *busyworkClient) buyingItems(ctx context.Context) error {
 			return err
 		}
 	}
-	c.log.Println(fmt.Sprintf(`is OK with $%.2f`, total))
+	c.log.Printf(fmt.Sprintf(`is OK with $%.2f`, total))
 
 	paymentID, err := c.generatePayment(ctx, customerID, total)
 	if err != nil {
@@ -394,7 +399,7 @@ func (c *busyworkClient) generateStore(ctx context.Context) (string, error) {
 
 	name := f.RandomCompanyName()
 	department := f.RandomDepartment()
-	c.log.Println(fmt.Sprintf(`is getting "%s" ready`, name))
+	c.log.Printf(fmt.Sprintf(`is getting "%s" ready`, name))
 	storeID, err := c.stores.CreateStore(ctx, name, department)
 	if err != nil {
 		return "", err
@@ -411,7 +416,7 @@ func (c *busyworkClient) generateProducts(ctx context.Context, storeID string, m
 
 		name := f.RandomProductName()
 		price := float64(500+rand.Intn(700)) / 100
-		c.log.Println(fmt.Sprintf(`is adding "%s" for $%.2f`, name, price))
+		c.log.Printf(fmt.Sprintf(`is adding "%s" for $%.2f`, name, price))
 		productID, err := c.stores.AddProduct(ctx, storeID, name, f.RandomBs(), f.RandomProductAdjective(), price)
 		if err != nil {
 			return nil, err

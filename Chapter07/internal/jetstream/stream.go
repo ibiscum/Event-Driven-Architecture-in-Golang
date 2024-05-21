@@ -2,6 +2,7 @@ package jetstream
 
 import (
 	"context"
+	"log"
 
 	"github.com/nats-io/nats.go"
 	"google.golang.org/protobuf/proto"
@@ -111,8 +112,14 @@ func (s *Stream) Subscribe(topicName string, handler am.MessageHandler[am.RawMes
 
 	if groupName := subCfg.GroupName(); groupName == "" {
 		_, err = s.js.Subscribe(topicName, s.handleMsg(subCfg, handler), opts...)
+		if err != nil {
+			return err
+		}
 	} else {
 		_, err = s.js.QueueSubscribe(topicName, groupName, s.handleMsg(subCfg, handler), opts...)
+		if err != nil {
+			return err
+		}
 	}
 
 	return nil
@@ -152,6 +159,7 @@ func (s *Stream) handleMsg(cfg am.SubscriberConfig, handler am.MessageHandler[am
 			err = msg.Ack()
 			if err != nil {
 				// TODO logging?
+				log.Fatal(err)
 			}
 		}
 
@@ -160,11 +168,13 @@ func (s *Stream) handleMsg(cfg am.SubscriberConfig, handler am.MessageHandler[am
 			if err == nil {
 				if ackErr := msg.Ack(); ackErr != nil {
 					// TODO logging?
+					log.Fatal(ackErr)
 				}
 				return
 			}
 			if nakErr := msg.NAck(); nakErr != nil {
 				// TODO logging?
+				log.Fatal(nakErr)
 			}
 		case <-wCtx.Done():
 			// TODO logging?

@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log"
 
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgerrcode"
@@ -63,6 +64,9 @@ func (s OutboxStore) FindUnpublished(ctx context.Context, limit int) ([]am.RawMe
 		err := rows.Close()
 		if err != nil {
 			err = errors.Wrap(err, "closing event rows")
+			if err != nil {
+				log.Fatal(err)
+			}
 		}
 	}(rows)
 

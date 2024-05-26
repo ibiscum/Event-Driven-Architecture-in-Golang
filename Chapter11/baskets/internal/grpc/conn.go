@@ -2,6 +2,7 @@ package grpc
 
 import (
 	"context"
+	"log"
 
 	"github.com/stackus/errors"
 	"google.golang.org/grpc"
@@ -17,7 +18,7 @@ func clientErrorUnaryInterceptor() grpc.UnaryClientInterceptor {
 }
 
 func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err error) {
-	conn, err = grpc.Dial(endpoint, grpc.WithTransportCredentials(insecure.NewCredentials()), grpc.WithChainUnaryInterceptor(clientErrorUnaryInterceptor()))
+	conn, err = grpc.NewClient(endpoint, grpc.WithTransportCredentials(insecure.NewCredentials()), grpc.WithChainUnaryInterceptor(clientErrorUnaryInterceptor()))
 	if err != nil {
 		return
 	}
@@ -25,6 +26,7 @@ func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err erro
 		if err != nil {
 			if err = conn.Close(); err != nil {
 				// TODO do something when logging is a thing
+				log.Fatal(err)
 			}
 			return
 		}
@@ -32,6 +34,7 @@ func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err erro
 			<-ctx.Done()
 			if err = conn.Close(); err != nil {
 				// TODO do something when logging is a thing
+				log.Fatal(err)
 			}
 		}()
 	}()

@@ -29,28 +29,28 @@ type suiteConfig struct {
 	featureCtxs []featureContext
 }
 
-func newTestSuite(cfg suiteConfig) godog.TestSuite {
-	return godog.TestSuite{
-		Name: "mallbots-e2e",
-		ScenarioInitializer: func(ctx *godog.ScenarioContext) {
-			for _, featureCtx := range cfg.featureCtxs {
-				featureCtx.register(ctx)
-			}
-			ctx.Before(func(ctx context.Context, s *godog.Scenario) (context.Context, error) {
-				for _, featureCtx := range cfg.featureCtxs {
-					featureCtx.reset()
-				}
+// func newTestSuite(cfg suiteConfig) godog.TestSuite {
+// 	return godog.TestSuite{
+// 		Name: "mallbots-e2e",
+// 		ScenarioInitializer: func(ctx *godog.ScenarioContext) {
+// 			for _, featureCtx := range cfg.featureCtxs {
+// 				featureCtx.register(ctx)
+// 			}
+// 			ctx.Before(func(ctx context.Context, s *godog.Scenario) (context.Context, error) {
+// 				for _, featureCtx := range cfg.featureCtxs {
+// 					featureCtx.reset()
+// 				}
 
-				return ctx, nil
-			})
-		},
-		Options: &godog.Options{
-			Format:    "pretty",
-			Paths:     cfg.paths,
-			Randomize: -1,
-		},
-	}
-}
+// 				return ctx, nil
+// 			})
+// 		},
+// 		Options: &godog.Options{
+// 			Format:    "pretty",
+// 			Paths:     cfg.paths,
+// 			Randomize: -1,
+// 		},
+// 	}
+// }
 
 func (c *suiteContext) register(ctx *godog.ScenarioContext) {
 	ctx.Step(`^I expect the (?:request|command|query) to fail$`, c.iExpectTheCommandToFail)

@@ -86,27 +86,27 @@ func (h domainHandlers[T]) onOrderCreated(ctx context.Context, event ddd.Event) 
 	)
 }
 
-func (h domainHandlers[T]) onOrderRejected(ctx context.Context, event ddd.Event) error {
-	payload := event.Payload().(*domain.Order)
-	return h.publisher.Publish(ctx, orderingpb.OrderAggregateChannel,
-		ddd.NewEvent(orderingpb.OrderRejectedEvent, &orderingpb.OrderRejected{
-			Id:         payload.ID(),
-			CustomerId: payload.CustomerID,
-			PaymentId:  payload.PaymentID,
-		}),
-	)
-}
+// func (h domainHandlers[T]) onOrderRejected(ctx context.Context, event ddd.Event) error {
+// 	payload := event.Payload().(*domain.Order)
+// 	return h.publisher.Publish(ctx, orderingpb.OrderAggregateChannel,
+// 		ddd.NewEvent(orderingpb.OrderRejectedEvent, &orderingpb.OrderRejected{
+// 			Id:         payload.ID(),
+// 			CustomerId: payload.CustomerID,
+// 			PaymentId:  payload.PaymentID,
+// 		}),
+// 	)
+// }
 
-func (h domainHandlers[T]) onOrderApproved(ctx context.Context, event ddd.Event) error {
-	payload := event.Payload().(*domain.Order)
-	return h.publisher.Publish(ctx, orderingpb.OrderAggregateChannel,
-		ddd.NewEvent(orderingpb.OrderApprovedEvent, &orderingpb.OrderApproved{
-			Id:         payload.ID(),
-			CustomerId: payload.CustomerID,
-			PaymentId:  payload.PaymentID,
-		}),
-	)
-}
+// func (h domainHandlers[T]) onOrderApproved(ctx context.Context, event ddd.Event) error {
+// 	payload := event.Payload().(*domain.Order)
+// 	return h.publisher.Publish(ctx, orderingpb.OrderAggregateChannel,
+// 		ddd.NewEvent(orderingpb.OrderApprovedEvent, &orderingpb.OrderApproved{
+// 			Id:         payload.ID(),
+// 			CustomerId: payload.CustomerID,
+// 			PaymentId:  payload.PaymentID,
+// 		}),
+// 	)
+// }
 
 func (h domainHandlers[T]) onOrderReadied(ctx context.Context, event ddd.Event) error {
 	payload := event.Payload().(*domain.Order)

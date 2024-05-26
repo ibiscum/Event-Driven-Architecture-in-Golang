@@ -50,7 +50,7 @@ $8
 		storeMap[item.StoreID] = struct{}{}
 	}
 	storeIDs := make(IDArray, 0, len(storeMap))
-	for storeID, _ := range storeMap {
+	for storeID := range storeMap {
 		storeIDs = append(storeIDs, storeID)
 	}
 

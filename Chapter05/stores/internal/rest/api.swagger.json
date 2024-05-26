@@ -1,12 +1,22 @@
 {
   "swagger": "2.0",
+  "host": "localhost:8081",
+  "schemes": ["http"],
   "info": {
+    "description": "Store Management",
     "title": "Store Management",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "contact": {}
   },
   "tags": [
     {
-      "name": "StoresService"
+        "name": "StoresService"
+    },
+    {
+        "name": "Store"
+    },
+    {
+        "name": "Participation"
     }
   ],
   "basePath": "/",
@@ -19,7 +29,7 @@
   "paths": {
     "/api/stores": {
       "get": {
-        "summary": "Get a list of stores",
+        "description": "Get a list of stores",
         "operationId": "getStores",
         "responses": {
           "200": {
@@ -40,7 +50,7 @@
         ]
       },
       "post": {
-        "summary": "Create a new store",
+        "description": "Create a new store",
         "operationId": "createStore",
         "responses": {
           "200": {
@@ -73,7 +83,7 @@
     },
     "/api/stores/participating": {
       "get": {
-        "summary": "Get a list of participating stores",
+        "description": "Get a list of participating stores",
         "operationId": "getParticipatingStores",
         "responses": {
           "200": {
@@ -96,7 +106,7 @@
     },
     "/api/stores/products/{id}": {
       "get": {
-        "summary": "Get a store product",
+        "description": "Get a store product",
         "operationId": "getProduct",
         "responses": {
           "200": {
@@ -125,7 +135,7 @@
         ]
       },
       "delete": {
-        "summary": "Remove a store product",
+        "description": "Remove a store product",
         "operationId": "removeProduct",
         "responses": {
           "200": {
@@ -156,7 +166,7 @@
     },
     "/api/stores/products/{id}/decreasePrice": {
       "put": {
-        "summary": "Decrease the price of a product",
+        "description": "Decrease the price of a product",
         "operationId": "decreaseProductPrice",
         "responses": {
           "200": {
@@ -195,7 +205,7 @@
     },
     "/api/stores/products/{id}/increasePrice": {
       "put": {
-        "summary": "Increase the price of a product",
+        "description": "Increase the price of a product",
         "operationId": "increaseProductPrice",
         "responses": {
           "200": {
@@ -234,7 +244,7 @@
     },
     "/api/stores/products/{id}/rebrand": {
       "put": {
-        "summary": "Change the name and description of a product",
+        "description": "Change the name and description of a product",
         "operationId": "rebrandProduct",
         "responses": {
           "200": {
@@ -273,7 +283,7 @@
     },
     "/api/stores/{id}": {
       "get": {
-        "summary": "Get a store",
+        "description": "Get a store",
         "operationId": "getStore",
         "responses": {
           "200": {
@@ -304,7 +314,7 @@
     },
     "/api/stores/{id}/participating": {
       "delete": {
-        "summary": "Disable store service participation",
+        "description": "Disable store service participation",
         "operationId": "disableParticipation",
         "responses": {
           "200": {
@@ -333,7 +343,7 @@
         ]
       },
       "put": {
-        "summary": "Enable store service participation",
+        "description": "Enable store service participation",
         "operationId": "enableParticipation",
         "responses": {
           "200": {
@@ -372,6 +382,7 @@
     },
     "/api/stores/{id}/rebrand": {
       "put": {
+        "description": "Rebrand a store",
         "operationId": "rebrandStore",
         "responses": {
           "200": {
@@ -410,7 +421,7 @@
     },
     "/api/stores/{storeId}/products": {
       "get": {
-        "summary": "Get a list of store products",
+        "description": "Get a list of store products",
         "operationId": "getStoreProduct",
         "responses": {
           "200": {
@@ -439,7 +450,7 @@
         ]
       },
       "post": {
-        "summary": "Add a store product",
+        "description": "Add a store product",
         "operationId": "addProduct",
         "responses": {
           "200": {
@@ -558,7 +569,6 @@
         "details": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }
@@ -606,7 +616,6 @@
         "products": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/storespbProduct"
           }
         }
@@ -618,7 +627,6 @@
         "stores": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/storespbStore"
           }
         }
@@ -646,7 +654,6 @@
         "stores": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/storespbStore"
           }
         }

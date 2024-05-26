@@ -9,7 +9,7 @@ import (
 )
 
 func Dial(ctx context.Context, endpoint string) (conn *grpc.ClientConn, err error) {
-	conn, err = grpc.Dial(endpoint, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	conn, err = grpc.NewClient(endpoint, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
 		return
 	}

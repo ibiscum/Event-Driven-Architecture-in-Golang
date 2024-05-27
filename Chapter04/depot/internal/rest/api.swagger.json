@@ -201,7 +201,6 @@
         "items": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/depotpbOrderItem"
           }
         }
@@ -252,7 +251,6 @@
         "details": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }

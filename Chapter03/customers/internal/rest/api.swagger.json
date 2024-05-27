@@ -1,6 +1,6 @@
 {
   "swagger": "2.0",
-  "host": "localhost",
+  "host": "localhost:8081",
   "schemes": ["http"],
   "info": {
     "title": "Customers",

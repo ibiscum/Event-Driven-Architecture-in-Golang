@@ -1,12 +1,19 @@
 {
   "swagger": "2.0",
+  "host": "localhost:8081",
+  "schemes": ["http"],
   "info": {
+    "contact": {},
+    "description": "Customers API",
     "title": "Customers",
     "version": "1.0.0"
   },
   "tags": [
     {
-      "name": "CustomersService"
+        "name": "CustomersService"
+    },
+    {
+        "name": "Customer"
     }
   ],
   "basePath": "/",
@@ -19,7 +26,7 @@
   "paths": {
     "/api/customers": {
       "post": {
-        "summary": "Create a new customer",
+        "description": "Create a new customer",
         "operationId": "createCustomer",
         "responses": {
           "200": {
@@ -52,7 +59,7 @@
     },
     "/api/customers/{id}": {
       "get": {
-        "summary": "Get a customer",
+        "description": "Get a customer",
         "operationId": "getCustomer",
         "responses": {
           "200": {
@@ -83,7 +90,7 @@
     },
     "/api/customers/{id}/disable": {
       "put": {
-        "summary": "Disable a customer",
+        "description": "Disable a customer",
         "operationId": "DisableCustomer",
         "responses": {
           "200": {
@@ -122,7 +129,7 @@
     },
     "/api/customers/{id}/enable": {
       "put": {
-        "summary": "Enable a customer",
+        "description": "Enable a customer",
         "operationId": "enableCustomer",
         "responses": {
           "200": {
@@ -165,9 +172,6 @@
       "type": "object"
     },
     "CustomersServiceEnableCustomerBody": {
-      "type": "object"
-    },
-    "customerspbAuthorizeCustomerResponse": {
       "type": "object"
     },
     "customerspbCustomer": {
@@ -242,7 +246,6 @@
         "details": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }

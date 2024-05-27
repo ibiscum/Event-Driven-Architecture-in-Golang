@@ -1,6 +1,10 @@
 {
   "swagger": "2.0",
+  "host": "localhost:8081",
+  "schemes": ["http"],
   "info": {
+    "description": "Payments API",
+    "contact": {},
     "title": "Payments API",
     "version": "1.0.0"
   },
@@ -19,7 +23,7 @@
   "paths": {
     "/api/payments": {
       "post": {
-        "summary": "Authorize a future payment",
+        "description": "Authorize a future payment",
         "operationId": "authorizePayment",
         "responses": {
           "200": {
@@ -52,7 +56,7 @@
     },
     "/api/payments/invoices/{id}/pay": {
       "put": {
-        "summary": "Pay an invoice",
+        "description": "Pay an invoice",
         "operationId": "payInvoice",
         "responses": {
           "200": {
@@ -156,7 +160,6 @@
         "details": {
           "type": "array",
           "items": {
-            "type": "object",
             "$ref": "#/definitions/protobufAny"
           }
         }

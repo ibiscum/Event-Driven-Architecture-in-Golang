@@ -62,7 +62,7 @@ func (s OutboxStore) FindUnpublished(ctx context.Context, limit int) ([]am.RawMe
 	defer func(rows *sql.Rows) {
 		err := rows.Close()
 		if err != nil {
-			err = errors.Wrap(err, "closing event rows")
+			errors.Wrap(err, "closing event rows")
 		}
 	}(rows)
 

@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log"
 
 	"github.com/stackus/errors"
 
@@ -81,9 +82,10 @@ func (r CatalogRepository) GetCatalog(ctx context.Context, storeID string) (prod
 		return nil, errors.Wrap(err, "querying products")
 	}
 	defer func(rows *sql.Rows) {
-		err := rows.Close()
-		if err != nil {
-			err = errors.Wrap(err, "closing product rows")
+		if err := rows.Close(); err != nil {
+			if err := errors.Wrap(err, "closing product rows"); err != nil {
+				log.Fatal(err)
+			}
 		}
 	}(rows)
 

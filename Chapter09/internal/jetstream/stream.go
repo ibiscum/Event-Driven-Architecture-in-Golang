@@ -2,6 +2,7 @@ package jetstream
 
 import (
 	"context"
+	"log"
 	"sync"
 
 	"github.com/nats-io/nats.go"
@@ -122,8 +123,14 @@ func (s *Stream) Subscribe(topicName string, handler am.RawMessageHandler, optio
 
 	if groupName := subCfg.GroupName(); groupName == "" {
 		_, err = s.js.Subscribe(topicName, s.handleMsg(subCfg, handler), opts...)
+		if err != nil {
+			log.Fatal(err)
+		}
 	} else {
 		_, err = s.js.QueueSubscribe(topicName, groupName, s.handleMsg(subCfg, handler), opts...)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	return nil

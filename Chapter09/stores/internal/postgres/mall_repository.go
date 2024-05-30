@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log"
 
 	"github.com/stackus/errors"
 
@@ -73,9 +74,10 @@ func (r MallRepository) All(ctx context.Context) (stores []*domain.MallStore, er
 		return nil, errors.Wrap(err, "querying stores")
 	}
 	defer func(rows *sql.Rows) {
-		err := rows.Close()
-		if err != nil {
-			err = errors.Wrap(err, "closing store rows")
+		if err := rows.Close(); err != nil {
+			if err := errors.Wrap(err, "closing store rows"); err != nil {
+				log.Fatal(err)
+			}
 		}
 	}(rows)
 
@@ -107,7 +109,10 @@ func (r MallRepository) AllParticipating(ctx context.Context) (stores []*domain.
 	defer func(rows *sql.Rows) {
 		err := rows.Close()
 		if err != nil {
-			err = errors.Wrap(err, "closing participating store rows")
+			err := errors.Wrap(err, "closing participating store rows")
+			if err != nil {
+				log.Fatal(err)
+			}
 		}
 	}(rows)
 

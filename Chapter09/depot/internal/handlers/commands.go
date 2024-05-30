@@ -73,11 +73,11 @@ func (h commandHandlers) doCancelShoppingList(ctx context.Context, cmd ddd.Comma
 	return nil, err
 }
 
-func (h commandHandlers) doInitiateShopping(ctx context.Context, cmd ddd.Command) (ddd.Reply, error) {
-	payload := cmd.Payload().(*depotpb.InitiateShopping)
+// func (h commandHandlers) doInitiateShopping(ctx context.Context, cmd ddd.Command) (ddd.Reply, error) {
+// 	payload := cmd.Payload().(*depotpb.InitiateShopping)
 
-	err := h.app.InitiateShopping(ctx, commands.InitiateShopping{ID: payload.GetId()})
+// 	err := h.app.InitiateShopping(ctx, commands.InitiateShopping{ID: payload.GetId()})
 
-	// returning nil returns a simple Success or Failure reply; err being nil determines which
-	return nil, err
-}
+// 	// returning nil returns a simple Success or Failure reply; err being nil determines which
+// 	return nil, err
+// }
